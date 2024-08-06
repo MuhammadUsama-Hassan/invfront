@@ -24,7 +24,7 @@ const Welcome = (props) => {
     const findEmail2 = sessionStorage.getItem('user'); 
 
 
-    const res = await fetch(`http://localhost:9000/api/postbyemail/${findEmail2}`, {
+    const res = await fetch(`https://web-production-8ea2.up.railway.app/api/postbyemail/${findEmail2}`, {
         method: "GET",
         headers: {
             "Content-Type": "application/json"
@@ -44,7 +44,7 @@ const getdata2 = async () => {
   const findEmail2 = sessionStorage.getItem('user'); 
 
 
-  const res = await fetch(`http://localhost:9000/api/allgetarea`, {
+  const res = await fetch(`https://web-production-8ea2.up.railway.app/api/allgetarea`, {
       method: "GET",
       headers: {
           "Content-Type": "application/json"
@@ -63,7 +63,7 @@ const getdata3 = async () => {
   const findEmail2 = sessionStorage.getItem('user'); 
 
 
-  const res = await fetch(`http://localhost:9000/api/allgetcategory`, {
+  const res = await fetch(`https://web-production-8ea2.up.railway.app/api/allgetcategory`, {
       method: "GET",
       headers: {
           "Content-Type": "application/json"
@@ -85,7 +85,7 @@ const gethotelname = async () => {
     const findEmail = sessionStorage.getItem('user'); 
     console.log(findEmail)
 
-    const res3 = await fetch(`http://localhost:9000/api/postbyemailsignup/${findEmail}`,{
+    const res3 = await fetch(`https://web-production-8ea2.up.railway.app/api/postbyemailsignup/${findEmail}`,{
         method: "GET",
         headers: {
             "Content-Type": "application/json"
@@ -168,7 +168,7 @@ const getroleauth = async () => {
     
     let femail = sessionStorage.getItem('user');
 
-    const res3 = await fetch(`http://localhost:9000/api/postbyemailsignup/${femail}`,{
+    const res3 = await fetch(`https://web-production-8ea2.up.railway.app/api/postbyemailsignup/${femail}`,{
         method: "GET",
         headers: {
             "Content-Type": "application/json"

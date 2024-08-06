@@ -22,7 +22,7 @@ const Products = (props) => {
     const findEmail2 = sessionStorage.getItem('user'); 
 
 
-    const res = await fetch(`http://localhost:9000/api/allgetcategory`, {
+    const res = await fetch(`https://web-production-8ea2.up.railway.app/api/allgetcategory`, {
         method: "GET",
         headers: {
             "Content-Type": "application/json"
@@ -45,7 +45,7 @@ const gethotelname = async () => {
     const findEmail = sessionStorage.getItem('user'); 
     console.log(findEmail)
 
-    const res3 = await fetch(`http://localhost:9000/api/postbyemailsignup/${findEmail}`,{
+    const res3 = await fetch(`https://web-production-8ea2.up.railway.app/api/postbyemailsignup/${findEmail}`,{
         method: "GET",
         headers: {
             "Content-Type": "application/json"
@@ -84,7 +84,7 @@ useEffect(()=>{
       else{
   
           const headers = { "Content-Type": "application/json" };
-          axios.post(`http://localhost:9000/api/allpostcategory`,{
+          axios.post(`https://web-production-8ea2.up.railway.app/api/allpostcategory`,{
               categoryName:categoryDetail.categoryName,
               userEmail: sessionStorage.getItem('user'),
               hotelname: sessionStorage.getItem('hotel'),
@@ -112,7 +112,7 @@ useEffect(()=>{
 const deletedata = async (id) => {
   // http://localhost:4000https://easy-erin-donkey-cape.cyclic.app/api/allpostdata
 
-  const res2 = await fetch(`http://localhost:9000/api/deletecat/${id}`, {
+  const res2 = await fetch(`https://web-production-8ea2.up.railway.app/api/deletecat/${id}`, {
       method: "DELETE",
       headers: {
           "Content-Type": "application/json"

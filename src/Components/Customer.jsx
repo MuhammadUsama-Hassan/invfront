@@ -29,7 +29,7 @@ const addPost=()=>{
   else{
 
       const headers = { "Content-Type": "application/json" };
-      axios.post(`http://localhost:9000/api/allpostarea`,{
+      axios.post(`https://web-production-8ea2.up.railway.app/api/allpostarea`,{
           areaName:area.areaName,
           cemail:area.cemail,
           caddress:area.caddress,
@@ -65,7 +65,7 @@ const getdata = async () => {
 
   // https://web-production-d8bb8.up.railway.app/api/allpostdata
 
-  const res = await fetch(`http://localhost:9000/api/allgetarea`, {
+  const res = await fetch(`https://web-production-8ea2.up.railway.app/api/allgetarea`, {
       method: "GET",
       headers: {
           "Content-Type": "application/json"
@@ -87,7 +87,7 @@ const gethotelname = async () => {
   const findEmail = sessionStorage.getItem('user'); 
   console.log(findEmail)
 
-  const res3 = await fetch(`http://localhost:9000/api/postbyemailsignup/${findEmail}`,{
+  const res3 = await fetch(`https://web-production-8ea2.up.railway.app/api/postbyemailsignup/${findEmail}`,{
       method: "GET",
       headers: {
           "Content-Type": "application/json"
@@ -137,7 +137,7 @@ const updatePost=(id)=>{
     
 
   const headers = { "Content-Type": "application/json" };
-  axios.patch(`http://localhost:9000/api/areaupdate/${id}`,{
+  axios.patch(`https://web-production-8ea2.up.railway.app/api/areaupdate/${id}`,{
 
         
     
@@ -166,7 +166,7 @@ console.log('error',err)
 const deletedata = async (id) => {
 // http://localhost:4000https://easy-erin-donkey-cape.cyclic.app/api/allpostdata
 
-const res2 = await fetch(`http://localhost:9000/api/deletearea/${id}`, {
+const res2 = await fetch(`https://web-production-8ea2.up.railway.app/api/deletearea/${id}`, {
   method: "DELETE",
   headers: {
       "Content-Type": "application/json"

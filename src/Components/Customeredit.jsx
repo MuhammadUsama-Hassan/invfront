@@ -20,7 +20,7 @@ const Customersedit = (props) => {
   
       const getdata = async () => {
   
-          const res = await fetch(`http://localhost:9000/api/areaid/${id}`, {
+          const res = await fetch(`https://web-production-8ea2.up.railway.app/api/areaid/${id}`, {
               method: "GET",
               headers: {
                   "Content-Type": "application/json"
@@ -68,7 +68,7 @@ const Customersedit = (props) => {
       
   
           const headers = { "Content-Type": "application/json" };
-          axios.patch(`http://localhost:9000/api/areaupdate/${id}`,{
+          axios.patch(`https://web-production-8ea2.up.railway.app/api/areaupdate/${id}`,{
               areaName:productDetail.areaName,
               cemail:productDetail.cemail,
               caddress:productDetail.caddress,

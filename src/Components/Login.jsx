@@ -52,7 +52,7 @@ export default function Login(props) {
                 }else{
  
             const headers = { "Content-Type": "application/json" };
-            axios.post(`http://localhost:9000/api/signin`,{
+            axios.post(`https://web-production-8ea2.up.railway.app/api/signin`,{
                 
                 email:data.email,
                 password:data.password
@@ -107,7 +107,7 @@ const getrole = async () => {
     
 
 
-    const res3 = await fetch(`http://localhost:9000/api/postbyemailsignup/${data.email}`,{
+    const res3 = await fetch(`https://web-production-8ea2.up.railway.app/api/postbyemailsignup/${data.email}`,{
         method: "GET",
         headers: {
             "Content-Type": "application/json"

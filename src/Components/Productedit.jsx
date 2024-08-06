@@ -20,7 +20,7 @@ const Productedit = (props) => {
   
       const getdata = async () => {
   
-          const res = await fetch(`http://localhost:9000/api/catid/${id}`, {
+          const res = await fetch(`https://web-production-8ea2.up.railway.app/api/catid/${id}`, {
               method: "GET",
               headers: {
                   "Content-Type": "application/json"
@@ -68,7 +68,7 @@ const Productedit = (props) => {
       
   
           const headers = { "Content-Type": "application/json" };
-          axios.patch(`http://localhost:9000/api/catupdate/${id}`,{
+          axios.patch(`https://web-production-8ea2.up.railway.app/api/catupdate/${id}`,{
               categoryName:productDetail.categoryName,
            
   
