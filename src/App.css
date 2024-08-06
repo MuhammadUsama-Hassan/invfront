@@ -1,0 +1,11 @@
+boxicons.min.css
+body{
+  background-color: rgb(145, 107, 107);
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important; 
+    color-adjust: exact !important; 
+  }
+}

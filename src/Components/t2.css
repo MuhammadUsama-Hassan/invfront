@@ -1,0 +1,108 @@
+.pDiv{
+
+    width: 341px;
+    height: 220px;
+    /* background-color: #F3E5D2; */
+    margin-left: 20px;
+    /* border: 2px solid gray; */
+    
+}
+
+.phead{
+    /* background-color: green; */
+    width: 341px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+}
+
+.phead3{
+    /* background-color: green; */
+    width: 341px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+}
+
+
+.tDiv{
+    /* background-color: yellow; */
+    width: 335px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:lighter;
+
+}
+
+.tDiv1{
+display: flex;
+
+
+}
+
+.tDiv2{
+display: flex;
+margin: auto;
+    
+}
+
+
+
+.fitem1{
+    /* background-color: red;
+    border: 2px solid black; */
+    margin: 15px;
+    width: 80px;
+    height: 90px;
+}
+
+.fitem2{
+    /* background-color: red;
+    border: 2px solid black; */
+    margin: auto;
+    width: 180px;
+    height: 90px;
+}
+
+.fitem3{
+    /* background-color: red;
+    border: 2px solid black; */
+    margin: 10px;
+    width: 80px;
+    height: 90px;
+}
+
+
+.phead2{
+    /* background-color: green; */
+    width: 341px;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+}
+
+.pDiv2{
+
+    width: 341px;
+    height: 220px;
+    /* background-color: #F3E5D2; */
+    margin-left: 20px;
+    /* border: 2px solid gray; */
+    
+}

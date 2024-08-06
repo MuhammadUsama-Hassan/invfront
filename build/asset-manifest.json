@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8fec16e6.css",
+    "main.js": "/static/js/main.a5da75e8.js",
+    "static/js/498.6addbe94.chunk.js": "/static/js/498.6addbe94.chunk.js",
+    "static/js/703.f2c60403.chunk.js": "/static/js/703.f2c60403.chunk.js",
+    "static/js/198.e8edf025.chunk.js": "/static/js/198.e8edf025.chunk.js",
+    "static/media/boxicons.svg": "/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/backimg.png": "/static/media/backimg.5547a8509b78e99af52f.png",
+    "static/media/boxicons.eot": "/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/boxicons.woff2": "/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/ba.jpg": "/static/media/ba.86cdb7926929f3b7e8cc.jpg",
+    "static/media/front1.jpg": "/static/media/front1.b213d55f3fe70d57b222.jpg",
+    "static/media/certificate_front.png": "/static/media/certificate_front.518521f6c95a74108981.png",
+    "static/media/ba2.jpg": "/static/media/ba2.4cb037c47960973b33e9.jpg",
+    "static/media/back.jpg": "/static/media/back.f50b64f45e1fed5dbfd2.jpg",
+    "index.html": "/index.html",
+    "main.8fec16e6.css.map": "/static/css/main.8fec16e6.css.map",
+    "main.a5da75e8.js.map": "/static/js/main.a5da75e8.js.map",
+    "498.6addbe94.chunk.js.map": "/static/js/498.6addbe94.chunk.js.map",
+    "703.f2c60403.chunk.js.map": "/static/js/703.f2c60403.chunk.js.map",
+    "198.e8edf025.chunk.js.map": "/static/js/198.e8edf025.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fec16e6.css",
+    "static/js/main.a5da75e8.js"
+  ]
+}
